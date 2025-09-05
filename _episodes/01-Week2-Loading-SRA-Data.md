@@ -98,8 +98,23 @@ The Galaxy servers MIGHT powerful enough to process all 22,000+ datasets, but to
 * Run Number `SRR12733957`: A sequencing run from a sample collected on April 6th, 2020.
 * Run Number `SRR11954102`: A sequencing run from a sample collected on May 2nd, 2020.
 
+Once you have identified the SRA numbers you are interested in, we can manually create a text file so that FASTQ download file can download both at once into a collection. 
 
-> ## Hands-On: Creating a subset of data (OUTDATED)
+> ## Hands-On: Creating a custom text file for input into SRA Download tool (use as of Fall 2025) 
+> Galaxy allows you to create new files from the upload menu. You can supply the contents of the file.
+> 1. Click Upload Data at the top of the tool panel
+> 2. Select  Paste/Fetch Data at the bottom
+> 3. Paste the two accession numbers, one on each line:
+> > ~~~
+> > SRR12733957
+> > SRR11954102
+> > ~~~
+> {: .output}
+> 5. Press Start and Close the window
+> 6. Double check that you have an untitled **Pasted Entry** in your history. If you do, you can move onto "Download the Actual Sequence Data" below! 
+{: .challenge}
+
+> ## Hands-On: Creating a subset of data (OUTDATED - do not use)
 >
 > > ## Warning: Don't get caught by the wrong "Cut"! 
 > <span class="glyphicon glyphicon-warning-sign"></span> WARNING: There are two cut tools in Galaxy due to historical reasons. For this tutorial we are assuming you are using the named EXACTLY <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Cut columns from a table (cut) </button>  The other tool follows a similar logic but with a different interface. <span class="glyphicon glyphicon-warning-sign"></span> 
