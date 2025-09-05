@@ -52,7 +52,7 @@ Because making sure our reads are high-quality is important but not the focus of
 > 1. Find the <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> fastp - fast all-in-one preprocessing for FASTQ files </button> tool. 
 > 2. Set **single or paired reads** to `Paired Collection`. 
 > 3. Make sure that you have selected the output of <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Faster Download and Extract Reads in FASTQ </button> as the input.
-> 4. Press `Execute`. 
+> 4. Press `Run Tool`. 
 > 5. To view the resultant HTML report, you may need to download the file onto your computer (see below). 
 {: .challenge}
 
@@ -154,7 +154,7 @@ If Galaxy does not have a genome you need to map against, you can upload your ge
 > <img src="{{ page.root }}/fig/BWAMEM_Input_Screen.png" alt="Tool parameter screen for BWA MEM tool with inputs and settings">
 > 5. **Set read groups information?**: `Do not set`
 > 6. **Select analysis mode** : `1. Simple Illumina Mode`. 
-> 7. Click `Execute`! 
+> 7. Click `Run Tool`! 
 > <span class="glyphicon glyphicon-time"></span> This may take a few minutes to run. <span class="glyphicon glyphicon-time"></span>. 
 {: .challenge}
 
@@ -179,7 +179,7 @@ You can also use read-mapping to troubleshoot this issue, by mapping your genome
 > 1. Find the <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> BAM/SAM Mapping Stats </button> tool in the Tools panel.
 > 2. For **Input .bam file** select the folder icon <span class="glyphicon glyphicon-folder-close"></span> and choose the output collection from <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Map with BWA-MEM  </button>.
 > 3. Change **Minimum mapping quality** to `20`, as this is the relevant mapping quality cutoff we will be using for our actual variant-calling step. 
-> 4. Press `Execute`!
+> 4. Press `Run Tool`!
 {: .challenge}
 
 Once the tool is done running, you can <span class="glyphicon glyphicon-eye-open"></span> examine the results. The results from calculating mapping statistics for sample `SRR11954102` look like this: 
