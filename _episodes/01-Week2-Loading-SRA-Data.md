@@ -147,7 +147,7 @@ So, now we have a file that contains just the two accession numbers for the sequ
 > ## Hands-On: Getting data from SRA
 > 1. <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Faster Download and Extract Reads in FASTQ </button> with the following parameters: 
 > - **Select Input Type**: `List of SRA Accession, one per line`. 
-> - The input parameter <span class="glyphicon glyphicon-file"></span> **select input type** should point the output of <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Cut columns from a table (cut) </button>. 
+> - The input parameter <span class="glyphicon glyphicon-file"></span> **select input type** should point to your **Pasted Entry** 
 > 2. Click the `Execute` button. This will run the tool, which retrieves the sequence read read datasets and places them into your Galaxy environment. <span class="glyphicon glyphicon-time"></span> Note that this step can take a few minutes, so this might be a good time get get a fresh cup of coffee!
 > 3. <span class="glyphicon glyphicon-eye-open"></span> Take a look at the entries that were created in your history panel: 
 > - `Pair-end data (fasterq-dump)`: Contains Paired-end datasets (if available)
