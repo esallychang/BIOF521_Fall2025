@@ -125,7 +125,7 @@ Once you have identified the SRA numbers you are interested in, we can manually 
 > 2. Make sure the SraRunInfo.csv dataset we just uploaded is listed in the <span class="glyphicon glyphicon-file"></span> **Select lines from** field of the tool form.
 >
 > 3. In the **Pattern** field enter the following expression: `SRR12733957|SRR11954102`. The "&#124;" symbol (called a "pipe") means "or". So we are telling this tool to find lines containing `SRR12733957` OR `SRR11954102`.
-> 4. Click the `Execute` button.
+> 4. Click the `Run Tool` button.
 > 5. Once the this has been executed, you should have a file with a total of three lines. If you look at the file (<span class="glyphicon glyphicon-eye-open"></span>), you will see that one of the two lines has been duplicated to take the place of the "header" line (which is fine for now). 
 > 6. Cut the first column from the file using the <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Cut columns from a table (cut) </button>  tool, which you will find in **Text Manipulation** section of the tool pane. 
 > 7. Make sure the dataset produced by the previous step is selected in the **File to cut** field of the tool form.
@@ -148,7 +148,7 @@ So, now we have a file that contains just the two accession numbers for the sequ
 > 1. <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Faster Download and Extract Reads in FASTQ </button> with the following parameters: 
 > - **Select Input Type**: `List of SRA Accession, one per line`. 
 > - The input parameter <span class="glyphicon glyphicon-file"></span> **select input type** should point to your **Pasted Entry** 
-> 2. Click the `Execute` button. This will run the tool, which retrieves the sequence read read datasets and places them into your Galaxy environment. <span class="glyphicon glyphicon-time"></span> Note that this step can take a few minutes, so this might be a good time get get a fresh cup of coffee!
+> 2. Click the `Run Tool` button. This will run the tool, which retrieves the sequence read read datasets and places them into your Galaxy environment. <span class="glyphicon glyphicon-time"></span> Note that this step can take a few minutes, so this might be a good time get get a fresh cup of coffee!
 > 3. <span class="glyphicon glyphicon-eye-open"></span> Take a look at the entries that were created in your history panel: 
 > - `Pair-end data (fasterq-dump)`: Contains Paired-end datasets (if available)
 > - `Single-end data (fasterq-dump)`:  Contains Single-end datasets (if available)
