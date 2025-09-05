@@ -103,8 +103,7 @@ The Galaxy servers MIGHT powerful enough to process all 22,000+ datasets, but to
 >
 > > ## Warning: Don't get caught by the wrong "Cut"! 
 > <span class="glyphicon glyphicon-warning-sign"></span> WARNING: There are two cut tools in Galaxy due to historical reasons. For this tutorial we are assuming you are using the named EXACTLY <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Cut columns from a table (cut) </button>  The other tool follows a similar logic but with a different interface. <span class="glyphicon glyphicon-warning-sign"></span> 
-> 
-{: .callout}
+> {: .callout}
 >
 > 1. Find the <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Select lines that match an expression  </button> tool in the **Filter and Sort** section of the tool panel. You may find that Galaxy has an overwhelming amount of tools installed. To find a specific tool type the tool name in the tool panel search box to find the tool.
 > 
@@ -124,6 +123,7 @@ The Galaxy servers MIGHT powerful enough to process all 22,000+ datasets, but to
 > ~~~
 > {: .output}
 {: .challenge}
+
 
 ## Downloading the actual sequence data
 
