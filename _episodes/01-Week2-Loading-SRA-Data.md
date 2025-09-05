@@ -98,12 +98,13 @@ The Galaxy servers MIGHT powerful enough to process all 22,000+ datasets, but to
 * Run Number `SRR12733957`: A sequencing run from a sample collected on April 6th, 2020.
 * Run Number `SRR11954102`: A sequencing run from a sample collected on May 2nd, 2020.
 
-> ## Warning: Don't get caught by the wrong "Cut"! 
+
+> ## Hands-On: Creating a subset of data (OUTDATED)
+>
+> > ## Warning: Don't get caught by the wrong "Cut"! 
 > <span class="glyphicon glyphicon-warning-sign"></span> WARNING: There are two cut tools in Galaxy due to historical reasons. For this tutorial we are assuming you are using the named EXACTLY <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Cut columns from a table (cut) </button>  The other tool follows a similar logic but with a different interface. <span class="glyphicon glyphicon-warning-sign"></span> 
 > 
 {: .callout}
-
-> ## Hands-On: Creating a subset of data
 >
 > 1. Find the <button type="button" class="btn btn-outline-tool" style="pointer-events: none"> Select lines that match an expression  </button> tool in the **Filter and Sort** section of the tool panel. You may find that Galaxy has an overwhelming amount of tools installed. To find a specific tool type the tool name in the tool panel search box to find the tool.
 > 
